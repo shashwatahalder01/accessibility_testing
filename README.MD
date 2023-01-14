@@ -1,6 +1,6 @@
-# Dokan E2E Tests (Playwright)
+# Accessibility Tests (Playwright)
 
-Automated Accessibility tests for Dokan plugin.
+Automated Accessibility tests for scope.
 
 ## Table of contents
 
@@ -49,19 +49,19 @@ Running all tests
 
 Running a single test file
 
-    npx playwright test customers.spec.ts
+    npx playwright test accessibility.spec.ts
 
 Run a set of test files
 
-    npx playwright test tests/customers/
+    npx playwright test tests/accessibility/
 
-Run files that have report or customer in the file name
+Run files that have accessibility  in the file name
 
-    npx playwright test report customers
+    npx playwright test report accessibility
 
 Run the test with the title
 
-    npx playwright test -g "customer add customer details"
+    npx playwright test -g "accessibility"
 
 Run group of tests with certain tag
 
