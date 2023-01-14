@@ -1,0 +1,30 @@
+[
+  {
+    "rule": "duplicate-id",
+    "targets": [
+      [
+        "input[data-category=\"functionalCookies\"]"
+      ],
+      [
+        "input[data-category=\"analyticsCookies\"]"
+      ],
+      [
+        "input[data-category=\"targetingCookies\"]"
+      ]
+    ]
+  },
+  {
+    "rule": "region",
+    "targets": [
+      [
+        ".cookies-banner__content"
+      ],
+      [
+        "h1"
+      ],
+      [
+        "body > .srt"
+      ]
+    ]
+  }
+]
